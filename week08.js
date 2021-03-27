@@ -13,4 +13,11 @@ var text2 = "Script".length;
 var text1and2 = text1 + text2;
 console.log(text1and2);
 
+var text3 = "Convert to uppercase";
+var TextConverted = text3.toUpperCase();
+console.log(TextConverted);
+
+
+
+
 
