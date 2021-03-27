@@ -17,6 +17,9 @@ var text3 = "Convert to uppercase";
 var TextConverted = text3.toUpperCase();
 console.log(TextConverted);
 
+var text4 = "create a new string";
+var NewString = text4.substring(0, 5);
+console.log(NewString);
 
 
 
