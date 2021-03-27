@@ -21,6 +21,10 @@ var text4 = "create a new string";
 var NewString = text4.substring(0, 5);
 console.log(NewString);
 
+var text5 = "create a new string";
+var NewString2 = text5.substring(16,19);
+console.log(NewString2);
+
 
 
 
