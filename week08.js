@@ -29,5 +29,8 @@ var text6 = "create a new string";
 var NewString3 = text6.charAt(0).toUpperCase() + text6.substring(1,19).toLowerCase();
 console.log(NewString3);
 
+var text7 = "create a new string";
+var newString4 = text7.indexOf(" ");
+console.log(newString4);
 
 
