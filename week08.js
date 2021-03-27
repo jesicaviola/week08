@@ -8,4 +8,9 @@ var lastname = "Viola";
 var CompleteName = firstname + lastname;
 console.log(CompleteName);
 
+var text1 = "Java".length;
+var text2 = "Script".length;
+var text1and2 = text1 + text2;
+console.log(text1and2);
+
 
