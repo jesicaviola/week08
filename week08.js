@@ -42,3 +42,19 @@ var text8b1 = text8b.charAt(0).toUpperCase() + text8b.substring(1).toLowerCase()
 var newString5 = text8a1 + " " + text8b1;
 console.log(newString5);
 
+var months = [
+  "Enero", 
+  "Febrero", 
+  "Marzo", 
+  "Abril",
+  "Mayo",
+  "Junio",
+  "Julio",
+  "Agosto",
+  "Septiembre",
+  "Octubre",
+  "Noviembre",
+  "Diciembre",
+];
+console.log(months[5],months[11]);
+
