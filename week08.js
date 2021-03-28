@@ -61,3 +61,11 @@ console.log(months[5],months[11]);
 months.sort();
 console.log(months);
 
+months.unshift(2020);
+months.push(2021);
+console.log(months);
+
+months.shift(2020);
+months.pop(2021);
+console.log(months);
+
