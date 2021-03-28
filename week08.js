@@ -58,6 +58,8 @@ var months = [
 ];
 console.log(months[5],months[11]);
 
+var original = months.slice();
+
 months.sort();
 console.log(months);
 
@@ -71,4 +73,10 @@ console.log(months);
 
 months.reverse();
 console.log(months);
+
+var monthsString = original.join("-");
+console.log(monthsString);
+
+
+
 
