@@ -58,3 +58,6 @@ var months = [
 ];
 console.log(months[5],months[11]);
 
+months.sort();
+console.log(months);
+
