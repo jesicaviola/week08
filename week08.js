@@ -77,6 +77,8 @@ console.log(months);
 var monthsString = original.join("-");
 console.log(monthsString);
 
+var original2 = original.slice (4,11);
+console.log(original2);
 
 
 
