@@ -69,5 +69,6 @@ months.shift(2020);
 months.pop(2021);
 console.log(months);
 
-
+months.reverse();
+console.log(months);
 
