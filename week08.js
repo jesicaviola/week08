@@ -3,10 +3,10 @@ var y = 3;
 var z = x + y;
 console.log(z);
 
-var firstname = "Jesica";
-var lastname = "Viola";
-var CompleteName = firstname + lastname;
-console.log(CompleteName);
+var firstName = "Jesica";
+var lastName = "Viola";
+var completeName = firstName + lastName;
+console.log(completeName);
 
 var text1 = "Java".length;
 var text2 = "Script".length;
@@ -14,20 +14,20 @@ var text1and2 = text1 + text2;
 console.log(text1and2);
 
 var text3 = "Convert to uppercase";
-var TextConverted = text3.toUpperCase();
-console.log(TextConverted);
+var textConverted = text3.toUpperCase();
+console.log(textConverted);
 
 var text4 = "create a new string";
-var NewString = text4.substring(0, 5);
-console.log(NewString);
+var newString = text4.substring(0, 5);
+console.log(newString);
 
 var text5 = "create a new string last 3";
-var NewString2 = text5.substring(text5.length-3);
-console.log(NewString2);
+var newString2 = text5.substring(text5.length-3);
+console.log(newString2);
 
 var text6 = "create a new string capitalize";
-var NewString3 = text6.charAt(0).toUpperCase() + text6.substring(1).toLowerCase();
-console.log(NewString3);
+var newString3 = text6.charAt(0).toUpperCase() + text6.substring(1).toLowerCase();
+console.log(newString3);
 
 var text7 = "create a new string";
 var newString4 = text7.indexOf(" ");
@@ -68,4 +68,6 @@ console.log(months);
 months.shift(2020);
 months.pop(2021);
 console.log(months);
+
+
 
