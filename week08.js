@@ -80,5 +80,9 @@ console.log(monthsString);
 var original2 = original.slice (4,11);
 console.log(original2);
 
+var number = Math.random();
+console.log(number);
 
+var newNumber = (number >= 0.5) ? "Greater than 0,5":"Lower than 0,5";
+console.log(newNumber);
 
