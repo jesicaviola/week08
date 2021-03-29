@@ -130,3 +130,16 @@ for (i = 0; i<animals.length; i++) {
   animals[i] = animals[i].charAt(0).toUpperCase() + animals[i].substr(1);
   console.log(animals[i]);
 }
+
+var sentence = "";
+
+for (let index = 0; index < animals.length; index++) {
+  const element = animals[index];
+  if (index === 0) {
+    sentence = element;
+  } else {
+    sentence = sentence + ' ' + element;
+  }
+}
+
+console.log(sentence);
