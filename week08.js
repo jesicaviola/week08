@@ -122,8 +122,9 @@ var animals = [
   "gallina",
 ];
 
-var i
-for (i = 0; i<animals.length; i++)
+console.log("animals", animals);
+
+for (var i = 0; i<animals.length; i++)
 console.log(animals[i]);
 
 for (i = 0; i<animals.length; i++) {
@@ -133,13 +134,22 @@ for (i = 0; i<animals.length; i++) {
 
 var sentence = "";
 
-for (let index = 0; index < animals.length; index++) {
+for (var index = 0; index < animals.length; index++) {
   const element = animals[index];
   if (index === 0) {
     sentence = element;
   } else {
-    sentence = sentence + ' ' + element;
+    sentence = sentence + " " + element;
   }
 }
 
 console.log(sentence);
+
+var listOfNumbers = [];
+
+for (var index = 0; index < 10; index++) {
+  listOfNumbers.push(index);
+  console.log("index",index);
+}
+
+console.log(listOfNumbers);
