@@ -122,6 +122,11 @@ var animals = [
   "gallina",
 ];
 
+var i
 for (i = 0; i<animals.length; i++)
 console.log(animals[i]);
 
+for (i = 0; i<animals.length; i++) {
+  animals[i] = animals[i].charAt(0).toUpperCase() + animals[i].substr(1);
+  console.log(animals[i]);
+}
