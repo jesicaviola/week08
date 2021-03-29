@@ -83,6 +83,33 @@ console.log(original2);
 var number = Math.random();
 console.log(number);
 
-var newNumber = (number >= 0.5) ? "Greater than 0,5":"Lower than 0,5";
-console.log(newNumber);
+var message = (number >= 0.5) ? "Greater than 0,5":"Lower than 0,5";
+console.log(message);
 
+var message2
+if (number >= 0.5) {
+  message2 = "Greater than 0,5";
+} else {
+  message2 = "Lower than 0,5";
+}
+
+var age = Math.floor(Math.random() * 100);
+console.log(age);
+
+var range
+if (age < 2) {
+  range = "Bebe";
+} else if (age < 12) {
+  range = "Niño";
+} else if (age < 19) {
+  range = "Adolescente";
+} else if (age < 30) {
+  range = "Joven";
+} else if (age < 60) {
+  range = "Adulto";
+} else if (age < 75) {
+  range = "Adulto mayor";
+} else {
+  range = "Anciano";
+}
+console.log(age, range);
