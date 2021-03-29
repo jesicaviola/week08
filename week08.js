@@ -113,3 +113,15 @@ if (age < 2) {
   range = "Anciano";
 }
 console.log(age, range);
+
+var animals = [
+  "jirafa",
+  "mono",
+  "leon",
+  "vaca",
+  "gallina",
+];
+
+for (i = 0; i<animals.length; i++)
+console.log(animals[i]);
+
