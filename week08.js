@@ -8,9 +8,9 @@ var lastName = "Viola";
 var completeName = firstName + lastName;
 console.log(completeName);
 
-var text1 = "Java".length;
-var text2 = "Script".length;
-var text1and2 = text1 + text2;
+var text1 = "Java";
+var text2 = "Script";
+var text1and2 = text1.length + text2.length;
 console.log(text1and2);
 
 var text3 = "Convert to uppercase";
@@ -99,15 +99,15 @@ console.log(age);
 var range
 if (age < 2) {
   range = "Bebe";
-} else if (age < 12) {
+} else if (age <= 12) {
   range = "Niño";
-} else if (age < 19) {
+} else if (age <= 19) {
   range = "Adolescente";
-} else if (age < 30) {
+} else if (age <= 30) {
   range = "Joven";
-} else if (age < 60) {
+} else if (age <= 60) {
   range = "Adulto";
-} else if (age < 75) {
+} else if (age <= 75) {
   range = "Adulto mayor";
 } else {
   range = "Anciano";
